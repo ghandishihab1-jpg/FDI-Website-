@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "wouter";
+import fdiLogoPath from "@assets/44425E6A-9426-487B-93F0-FF6FB9B2DAEC_1778263764804.jpeg";
+import jpsLogoPath from "@assets/IMG_4813_1778263821802.png";
 
 export default function Home() {
   return (
@@ -173,12 +175,14 @@ export default function Home() {
       <section className="bg-light-gray py-20 border-t border-border" style={{ backgroundColor: 'var(--color-muted)' }} data-testid="partners-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-serif font-bold mb-12 text-foreground">Partners and Supporters</h2>
-          <div className="flex flex-wrap justify-center gap-8">
-            <div className="w-48 h-24 border border-border flex items-center justify-center text-muted-foreground text-sm bg-white rounded-none">
-              Partner Logo
-            </div>
-            <div className="w-48 h-24 border border-border flex items-center justify-center text-muted-foreground text-sm bg-white rounded-none">
-              Partner Logo
+          <div className="flex flex-wrap justify-center items-center gap-12">
+            <div className="flex flex-col items-center gap-3" data-testid="partner-fdi-jps">
+              <div className="flex items-center gap-6 border border-border bg-white px-10 py-6">
+                <img src={fdiLogoPath} alt="FDI Logo" className="h-16 w-auto object-contain" />
+                <span className="text-2xl font-bold text-foreground font-serif">×</span>
+                <img src={jpsLogoPath} alt="Jordan Paramedic Society Logo" className="h-16 w-auto object-contain" />
+              </div>
+              <span className="text-sm font-semibold tracking-widest text-muted-foreground uppercase">FDI × JPS</span>
             </div>
           </div>
         </div>

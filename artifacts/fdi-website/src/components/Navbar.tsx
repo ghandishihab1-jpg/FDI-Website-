@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
+import logoPath from "@assets/44425E6A-9426-487B-93F0-FF6FB9B2DAEC_1778263764804.jpeg";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -21,8 +22,9 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="font-bold text-xl text-white tracking-widest" data-testid="nav-logo">
-              FDI
+            <Link href="/" className="flex items-center gap-3" data-testid="nav-logo">
+              <img src={logoPath} alt="FDI Logo" className="h-8 w-auto object-contain bg-white p-0.5" />
+              <span className="font-bold text-sm text-white tracking-wide hidden lg:block">FDI – Future Doctor Initiative</span>
             </Link>
           </div>
           
