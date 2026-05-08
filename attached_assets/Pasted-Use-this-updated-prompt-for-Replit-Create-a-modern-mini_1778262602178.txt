@@ -1,0 +1,139 @@
+Use this updated prompt for Replit:
+
+Create a modern minimalist website for FDI – Future Doctor Initiative. Use the current website as the base inspiration, but improve it and make it cleaner, sharper, and more professional.
+
+Very important design instructions:
+	•	Use hard edges only
+	•	No rounded corners
+	•	All buttons, cards, boxes, inputs, sections, and containers should have sharp rectangular edges
+	•	Keep the design structured and solid
+	•	Make it feel serious, premium, and editorial
+	•	Do not make it playful, soft, bubbly, or overly startup-like
+
+Visual direction:
+	•	Keep a similar green/teal stripe navigation bar like the current site
+	•	Keep a similar overall color family:
+	•	deep teal / green
+	•	white background
+	•	dark text
+	•	light gray for clean section contrast
+	•	Use solid colors, not messy gradients
+	•	The website should feel bright, minimal, and polished
+	•	Use strong spacing and clean alignment
+	•	Add a subtle medical visual identity, but keep it refined
+
+Branding:
+	•	Improve the FDI logo placement and presentation
+	•	Use a better, cleaner version of the FDI logo
+	•	Keep branding consistent across the navbar, hero section, and footer
+	•	The logo should feel more premium and modern than the current one
+
+Style references from the current website:
+	•	Keep the top white strip with Instagram and email/contact info
+	•	Keep the dark teal navigation stripe
+	•	Keep the overall structure and section flow
+	•	Keep the website minimal and text-led
+	•	Keep it elegant and credible
+	•	But improve the typography, balance, spacing, and polish
+
+Homepage structure:
+	1.	Top contact strip
+
+	•	white background
+	•	Instagram handle
+	•	email
+	•	optional phone
+	•	logo on the left
+
+	2.	Navigation bar
+
+	•	solid dark teal/green stripe
+	•	hard edges
+	•	links:
+Home
+About Us
+Team
+Workshops
+Partnership
+Instagram
+Inquiry
+Venue
+
+	3.	Hero section
+
+	•	large bold headline
+	•	something like:
+“What if more people knew what to do?”
+	•	subheading about first aid awareness and emergency response in schools
+	•	two rectangular buttons:
+“Our Story”
+“Get Involved”
+	•	include a subtle ECG/pulse line graphic on the right side
+	•	include a better placed FDI logo
+	•	no rounded CTA buttons
+
+	4.	Impact statistics section
+
+	•	3 clean hard-edged columns/cards
+	•	same style as the example website
+	•	sample stats like:
+1 in 3 schools lack basic emergency training
+72% of preventable injury escalation comes from poor first response
+100% of core first-response knowledge can be introduced through workshops
+	•	make this section clean and high-end
+
+	5.	About / The Gap Is Real section
+
+	•	split layout
+	•	left side: strong heading and paragraph
+	•	right side: “How you can be part of this”
+	•	3 rectangular participation cards/buttons:
+Lead the Initiative
+Join a Workshop
+Volunteer
+	•	keep the structure similar to the current version, but make it more visually refined
+
+	6.	Workshop section
+
+	•	highlight the first workshop
+	•	mention first aid fundamentals / emergency response awareness
+	•	include date, venue, expected participants, and short call to action
+	•	all information in clean rectangular cards or blocks
+
+	7.	Partners / Supporters section
+
+	•	minimal section for logos or placeholders
+	•	keep it clean, not crowded
+
+	8.	Footer
+
+	•	dark teal background
+	•	logo
+	•	short mission statement
+	•	page links
+	•	contact form
+	•	everything should use rectangular hard-edged fields and buttons
+
+Typography:
+	•	Use elegant, strong serif for major headings if it fits
+	•	Use clean sans-serif for body and navigation
+	•	Make it feel credible and slightly editorial
+	•	Avoid childish fonts
+
+Technical instructions:
+	•	Build the full front-end in HTML, CSS, and JavaScript
+	•	Make it fully responsive for desktop and mobile
+	•	Keep the code clean and organized
+	•	Use reusable sections
+	•	No excessive animations
+	•	Only subtle hover effects
+	•	No shadows that feel soft or rounded
+	•	No glassmorphism
+	•	No blobs
+	•	No gradient-heavy modern trend design
+
+Critical UI rule:
+Every visible box element must have square corners. No border-radius unless it is exactly zero or not used at all.
+
+Goal:
+The final website should look like a sharper, more premium, more professional version of the current FDI site, with the same general stripe layout and color identity, but with stronger branding, better spacing, better typography, and harder rectangular structure.
