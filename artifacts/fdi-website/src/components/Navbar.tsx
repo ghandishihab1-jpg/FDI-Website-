@@ -14,7 +14,7 @@ export function Navbar() {
     { href: "/workshops", label: "Workshops" },
     { href: "/partnership", label: "Partnership" },
     { href: "/inquiry", label: "Inquiry" },
-    { href: "/venue", label: "Venue" },
+    { href: "/venue", label: "Venue & Schedule" },
   ];
 
   return (
