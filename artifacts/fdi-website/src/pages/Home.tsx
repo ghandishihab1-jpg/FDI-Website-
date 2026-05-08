@@ -13,9 +13,6 @@ export default function Home() {
             <span className="text-xs font-semibold tracking-widest text-gray-300 uppercase" data-testid="hero-label">
               FUTURE DOCTOR INITIATIVE - JORDAN
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight" data-testid="hero-heading">
-              What if more people <i className="font-serif">knew</i> what to do?
-            </h1>
             <p className="text-lg text-gray-300 max-w-lg leading-relaxed" data-testid="hero-subheading">
               Every day, basic injuries escalate because no one nearby knows the right response. We are changing that, one school and one workshop at a time.
             </p>

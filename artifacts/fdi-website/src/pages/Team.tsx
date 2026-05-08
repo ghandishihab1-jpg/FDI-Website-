@@ -9,6 +9,7 @@ const TEAM_MEMBERS = [
   { name: "Luna Zaatar", role: "Deputy Head of Organization", dept: "Organization" },
   { name: "Tala Qiblawi", role: "Head of Media", dept: "Media" },
   { name: "Anirudh Nagella", role: "Deputy Head of Media", dept: "Media" },
+  { name: "Bayan Abu Qura", role: "Deputy Head of Marketing", dept: "Media" },
   { name: "Mohammad Mazen", role: "Co-Head of Education", dept: "Education" },
   { name: "Mayasa Zaatar", role: "Co-Head of Education", dept: "Education" },
 ];
