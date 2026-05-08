@@ -138,34 +138,21 @@ export default function Home() {
       {/* Workshop Highlight */}
       <section className="bg-white py-20" data-testid="workshop-highlight">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="border border-border p-8 md:p-12 rounded-none">
-            <h2 className="text-2xl md:text-3xl font-serif font-bold mb-8 text-foreground">BLS Workshop - Jordan Paramedic Society Partnership</h2>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-12 mb-10 text-sm md:text-base">
-              <div>
-                <span className="text-muted-foreground font-semibold uppercase tracking-wider text-xs block mb-1">Partner</span>
-                <span className="font-medium text-foreground">Jordan Paramedic Society (JPS)</span>
-              </div>
-              <div>
-                <span className="text-muted-foreground font-semibold uppercase tracking-wider text-xs block mb-1">Participants</span>
-                <span className="font-medium text-foreground">35 expected</span>
-              </div>
-              <div>
-                <span className="text-muted-foreground font-semibold uppercase tracking-wider text-xs block mb-1">Venue</span>
-                <span className="font-medium text-foreground">Geneva Hotel</span>
-              </div>
-              <div>
-                <span className="text-muted-foreground font-semibold uppercase tracking-wider text-xs block mb-1">Duration</span>
-                <span className="font-medium text-foreground">6 hours</span>
-              </div>
+          <div className="border border-border p-8 md:p-12 rounded-none text-center">
+            <span className="text-xs font-semibold tracking-widest text-accent uppercase">First Workshop</span>
+            <h2 className="text-2xl md:text-3xl font-serif font-bold mt-4 mb-5 text-foreground">BLS Workshop</h2>
+            <div className="inline-block border border-accent text-accent text-sm font-semibold tracking-widest uppercase px-6 py-2 mb-6">
+              Coming Soon
             </div>
-            
-            <Link 
-              href="/workshops" 
+            <p className="text-muted-foreground mb-8 max-w-md mx-auto">
+              Details will be announced soon. Follow us on Instagram or submit an inquiry to stay informed.
+            </p>
+            <Link
+              href="/workshops"
               className="inline-block bg-accent hover:bg-accent/90 text-white px-8 py-3 font-medium transition-colors rounded-none"
               data-testid="btn-view-workshop"
             >
-              View Workshop Details
+              Learn More
             </Link>
           </div>
         </div>
