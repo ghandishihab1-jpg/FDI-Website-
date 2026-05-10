@@ -25,7 +25,7 @@ const translations = {
     // Home
     hero_label: "FUTURE DOCTOR INITIATIVE – JORDAN",
     hero_title: "Future Doctor Initiative",
-    hero_subtitle: "Every day, basic injuries escalate because no one nearby knows the right response. We are changing that, one school and one workshop at a time.",
+    hero_subtitle: "Every day, basic injuries escalate because no one nearby knows the right response. We are changing that, one student and one workshop at a time.",
     hero_btn_story: "Our Story",
     hero_btn_involved: "Get Involved",
     hero_quote: '"Salus populi suprema lex esto." — Let the welfare of the people be the supreme law. - Cicero',
@@ -38,7 +38,7 @@ const translations = {
     stat3_label: "of the knowledge required is teachable in a single workshop",
 
     gap_heading: "The gap is real. And it costs lives.",
-    gap_p1: "A fractured wrist treated with cold water instead of support. A cut left to bleed because no one knew to apply pressure. These are not rare incidents. They happen every single day in schools across Jordan.",
+    gap_p1: "A fractured wrist treated with cold water instead of support. A cut left to bleed because no one knew to apply pressure. A student having a panic attack left alone because no one knew how to help. A peer showing signs of suicidal ideation that went unnoticed because no one had the awareness to recognise them. These are not rare incidents — they happen every single day among students and teenagers across Jordan.",
     gap_p2: "The problem is not lack of care. It is lack of knowledge. That is something we can fix.",
 
     involve_heading: "How you can be part of this.",
@@ -96,7 +96,7 @@ const translations = {
 
     // Partnership
     partnership_heading: "Partner With Us",
-    partnership_intro: "Empowering the next generation with life-saving skills requires a united front. By partnering with FDI, you are directly investing in the safety of schools and communities across Jordan.",
+    partnership_intro: "Empowering the next generation with life-saving skills requires a united front. By partnering with FDI, you are directly investing in the safety and wellbeing of students, teenagers and communities across Jordan.",
     become_partner: "Become a Partner",
     tier_gold_name: "Founding Gold Partner",
     tier_gold_amount: "500 JD and above",
@@ -166,7 +166,7 @@ const translations = {
     lang_toggle: "English",
 
     // Layout / Footer
-    footer_tagline: "مبادرة طلابية تهدف إلى إتاحة المعرفة الطبية الأساسية لكل مدرسة في الأردن.",
+    footer_tagline: "مبادرة طلابية تهدف إلى إتاحة المعرفة الطبية الأساسية لكل طالب ومراهق في الأردن.",
     footer_write: "راسلنا",
     footer_name: "الاسم",
     footer_email: "البريد الإلكتروني",
@@ -176,7 +176,7 @@ const translations = {
     // Home
     hero_label: "مبادرة الطبيب المستقبل – الأردن",
     hero_title: "مبادرة الطبيب المستقبل",
-    hero_subtitle: "كل يوم، تتفاقم إصابات بسيطة لأن لا أحد بالقرب يعرف الاستجابة الصحيحة. نحن نغيّر ذلك، مدرسةً تلو الأخرى وورشةً تلو الأخرى.",
+    hero_subtitle: "كل يوم، تتفاقم إصابات بسيطة لأن لا أحد بالقرب يعرف الاستجابة الصحيحة. نحن نغيّر ذلك، طالباً تلو الآخر وورشةً تلو الأخرى.",
     hero_btn_story: "قصتنا",
     hero_btn_involved: "شارك معنا",
     hero_quote: '"Salus populi suprema lex esto." — لتكن سلامة الشعب القانون الأسمى. - شيشرون',
@@ -189,7 +189,7 @@ const translations = {
     stat3_label: "من المعرفة المطلوبة قابلة للتعلم في ورشة عمل واحدة",
 
     gap_heading: "الفجوة حقيقية. وهي تكلّف أرواحاً.",
-    gap_p1: "كسر في الرسغ عُولج بالماء البارد. جرح تُرك ينزف لأن أحداً لم يعرف كيف يضغط عليه. هذه ليست حوادث نادرة. تحدث كل يوم في مدارس الأردن.",
+    gap_p1: "كسر في الرسغ عُولج بالماء البارد. جرح تُرك ينزف لأن أحداً لم يعرف كيف يضغط عليه. طالب يُعاني من نوبة هلع تُرك وحيداً لأن أحداً لم يعرف كيف يساعده. زميل أظهر علامات أفكار انتحارية مرّت دون أن يلاحظها أحد لغياب الوعي اللازم. هذه ليست حوادث نادرة — تحدث كل يوم بين الطلاب والمراهقين في أرجاء الأردن.",
     gap_p2: "المشكلة ليست غياب الرغبة في المساعدة. المشكلة هي غياب المعرفة. وهذا شيء يمكننا تغييره.",
 
     involve_heading: "كيف يمكنك أن تكون جزءاً من هذا.",
@@ -247,7 +247,7 @@ const translations = {
 
     // Partnership
     partnership_heading: "شارك معنا",
-    partnership_intro: "تمكين الجيل القادم بمهارات إنقاذ الحياة يتطلب جبهةً موحدة. بالشراكة مع المبادرة، تستثمر مباشرةً في سلامة المدارس والمجتمعات في الأردن.",
+    partnership_intro: "تمكين الجيل القادم بمهارات إنقاذ الحياة يتطلب جبهةً موحدة. بالشراكة مع المبادرة، تستثمر مباشرةً في سلامة ورفاهية الطلاب والمراهقين والمجتمعات في الأردن.",
     become_partner: "كن شريكاً",
     tier_gold_name: "شريك ذهبي مؤسس",
     tier_gold_amount: "500 دينار فأكثر",
