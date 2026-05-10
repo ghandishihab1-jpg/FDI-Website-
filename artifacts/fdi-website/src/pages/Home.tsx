@@ -39,21 +39,6 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative h-full min-h-[300px] hidden md:block">
-            <svg viewBox="0 0 500 200" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-auto opacity-40">
-              <polyline
-                points="0,100 150,100 170,50 200,180 230,20 260,100 500,100"
-                fill="none"
-                stroke="#FFFFFF"
-                strokeWidth="4"
-                strokeLinecap="square"
-                strokeLinejoin="miter"
-              />
-            </svg>
-            <div className="absolute bottom-0 right-0 text-right opacity-60 text-sm font-medium tracking-widest">
-              FDI | FUTURE DOCTOR INITIATIVE
-            </div>
-          </div>
         </div>
 
         <div className="absolute bottom-0 w-full bg-[#1F4545] py-4 border-t border-white/10">
