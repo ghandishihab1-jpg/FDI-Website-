@@ -43,13 +43,6 @@ export default function About() {
             <p className="text-lg text-muted-foreground leading-relaxed">{t("vision_p")}</p>
           </div>
 
-          <hr className="border-border" />
-
-          <div data-testid="about-problem">
-            <h2 className="text-3xl font-serif font-bold mb-6 text-foreground">{t("the_problem")}</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">{t("problem_p")}</p>
-          </div>
-
         </div>
       </section>
     </div>
