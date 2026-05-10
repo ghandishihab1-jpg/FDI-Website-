@@ -48,25 +48,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Impact Stats */}
-      <section className="bg-white py-16" data-testid="impact-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-border">
-            <div className="p-6 md:p-8 pl-0 md:pl-8 border-l-4 border-accent ml-4 md:ml-0" data-testid="stat-1">
-              <div className="text-5xl md:text-6xl font-bold font-serif mb-4 text-foreground">{t("stat1_number")}</div>
-              <p className="text-muted-foreground text-sm md:text-base leading-relaxed">{t("stat1_label")}</p>
-            </div>
-            <div className="p-6 md:p-8 border-l-4 border-accent ml-4 md:ml-0" data-testid="stat-2">
-              <div className="text-5xl md:text-6xl font-bold font-serif mb-4 text-foreground">{t("stat2_number")}</div>
-              <p className="text-muted-foreground text-sm md:text-base leading-relaxed">{t("stat2_label")}</p>
-            </div>
-            <div className="p-6 md:p-8 border-l-4 border-accent ml-4 md:ml-0" data-testid="stat-3">
-              <div className="text-5xl md:text-6xl font-bold font-serif mb-4 text-foreground">{t("stat3_number")}</div>
-              <p className="text-muted-foreground text-sm md:text-base leading-relaxed">{t("stat3_label")}</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* The Gap Section */}
       <section className="bg-light-gray py-20" style={{ backgroundColor: 'var(--color-muted)' }} data-testid="gap-section">
