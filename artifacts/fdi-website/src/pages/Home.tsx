@@ -39,6 +39,11 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <div className="relative h-full min-h-[300px] hidden md:flex items-end justify-end">
+            <div className="opacity-60 text-sm font-medium tracking-widest text-white">
+              FDI | FUTURE DOCTOR INITIATIVE
+            </div>
+          </div>
         </div>
 
         <div className="absolute bottom-0 w-full bg-[#1F4545] py-4 border-t border-white/10">
