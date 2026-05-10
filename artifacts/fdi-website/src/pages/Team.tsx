@@ -22,6 +22,14 @@ const TEAM_MEMBERS: TeamMember[] = [
   { name: "Mayasa Zaatar",    roleKey: "role_cohead_edu",       deptKey: "dept_education" },
 ];
 
+const DEPT_STYLES: Record<string, { border: string; roleColor: string; cardBg: string }> = {
+  dept_presidency:   { border: "#CC0000", roleColor: "#CC0000", cardBg: "#ffffff" },
+  dept_operations:   { border: "#3D6B8E", roleColor: "#3D6B8E", cardBg: "#ffffff" },
+  dept_organization: { border: "#7CAABF", roleColor: "#5A8FAA", cardBg: "#ffffff" },
+  dept_media:        { border: "#D4E8EE", roleColor: "#3D6B8E", cardBg: "#EEF6FA" },
+  dept_education:    { border: "#CC0000", roleColor: "#9B0000", cardBg: "#FFF5F5" },
+};
+
 export default function Team() {
   const { t } = useLanguage();
 
@@ -35,21 +43,45 @@ export default function Team() {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-testid="team-grid">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {TEAM_MEMBERS.map((member, index) => (
-            <div
-              key={index}
-              className="border border-border p-6 rounded-none hover:bg-black/[0.02] transition-colors"
-              data-testid={`team-card-${index}`}
-            >
-              <div className="text-accent text-xs font-bold uppercase tracking-widest mb-3">
-                {t(member.roleKey)}
+          {TEAM_MEMBERS.map((member, index) => {
+            const style = DEPT_STYLES[member.deptKey] ?? DEPT_STYLES.dept_operations;
+            return (
+              <div
+                key={index}
+                className="border border-border p-6 rounded-none transition-colors"
+                style={{
+                  borderLeftColor: style.border,
+                  borderLeftWidth: "4px",
+                  backgroundColor: style.cardBg,
+                }}
+                data-testid={`team-card-${index}`}
+              >
+                <div
+                  className="text-xs font-bold uppercase tracking-widest mb-3"
+                  style={{ color: style.roleColor }}
+                >
+                  {t(member.roleKey)}
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-1 font-serif">
+                  {member.name}
+                </h3>
+                <p className="text-muted-foreground text-sm">
+                  {t(member.deptKey)}
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-1 font-serif">
-                {member.name}
-              </h3>
-              <p className="text-muted-foreground text-sm">
-                {t(member.deptKey)}
-              </p>
+            );
+          })}
+        </div>
+
+        {/* Legend */}
+        <div className="mt-12 pt-8 border-t border-border flex flex-wrap gap-6">
+          {Object.entries(DEPT_STYLES).map(([deptKey, style]) => (
+            <div key={deptKey} className="flex items-center gap-2">
+              <span
+                className="inline-block w-3 h-3 rounded-none"
+                style={{ backgroundColor: style.border }}
+              />
+              <span className="text-sm text-muted-foreground">{t(deptKey as TranslationKey)}</span>
             </div>
           ))}
         </div>
