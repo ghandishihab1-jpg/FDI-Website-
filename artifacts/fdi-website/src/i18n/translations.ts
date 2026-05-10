@@ -15,7 +15,7 @@ const translations = {
     lang_toggle: "عربي",
 
     // Layout / Footer
-    footer_tagline: "A student-led initiative making basic medical knowledge accessible to every school in Jordan.",
+    footer_tagline: "A student-led initiative making basic medical knowledge accessible to every student in Jordan.",
     footer_write: "Write to Us",
     footer_name: "Name",
     footer_email: "Email",
