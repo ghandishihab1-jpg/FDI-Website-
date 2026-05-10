@@ -61,7 +61,7 @@ const translations = {
     about_heading: "About FDI",
     why_started: "Why We Started",
     why_p1: "The story of FDI began with a simple 4th-grade football incident. A brother broke his wrist on the field. The immediate response from the trainer? Applying cold water. When he returned home, no one in the family knew exactly what to do either.",
-    why_p2: "This incident highlighted a stark reality: basic, daily injuries escalate rapidly without proper education. We realized that schools across Jordan were facing the same issue. The problem isn't a lack of desire to help—it's a critical lack of knowledge on how to respond correctly in those crucial first few minutes.",
+    why_p2: "This incident highlighted a stark reality: basic, daily injuries escalate rapidly without proper education. We realized that schools across Jordan were facing the same issue. The problem isn't a lack of desire to help it's a critical lack of knowledge on how to respond correctly in those crucial first few minutes.",
     our_mission: "Our Mission",
     mission_intro: "To make basic medical knowledge accessible to every school in Jordan. We achieve this by:",
     mission_li1: "Organizing professional, hands-on emergency response workshops for students and teachers.",
