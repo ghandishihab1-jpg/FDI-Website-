@@ -2,19 +2,21 @@ import React, { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import logoPath from "@assets/44425E6A-9426-487B-93F0-FF6FB9B2DAEC_1778263764804.jpeg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export function Navbar() {
   const [location] = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+  const { t, toggle, lang } = useLanguage();
 
   const links = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About Us" },
-    { href: "/team", label: "Team" },
-    { href: "/workshops", label: "Workshops" },
-    { href: "/partnership", label: "Partnership" },
-    { href: "/inquiry", label: "Inquiry" },
-    { href: "/venue", label: "Venue & Schedule" },
+    { href: "/", label: t("nav_home") },
+    { href: "/about", label: t("nav_about") },
+    { href: "/team", label: t("nav_team") },
+    { href: "/workshops", label: t("nav_workshops") },
+    { href: "/partnership", label: t("nav_partnership") },
+    { href: "/inquiry", label: t("nav_inquiry") },
+    { href: "/venue", label: t("nav_venue") },
   ];
 
   return (
@@ -24,39 +26,49 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-3" data-testid="nav-logo">
               <img src={logoPath} alt="FDI Logo" className="h-8 w-auto object-contain bg-white p-0.5" />
-              <span className="font-bold text-sm text-white tracking-wide hidden lg:block">FDI – Future Doctor Initiative</span>
+              <span className="font-bold text-sm text-white tracking-wide hidden lg:block">{t("nav_brand")}</span>
             </Link>
           </div>
-          
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
-              {links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  data-testid={`nav-link-${link.label.toLowerCase().replace(" ", "-")}`}
-                  className={`px-3 py-2 text-sm font-medium transition-colors ${
-                    location === link.href
-                      ? "text-white border-b-2 border-white"
-                      : "text-gray-300 hover:text-white hover:bg-black/20"
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <a
-                href="https://www.instagram.com/fdi.jo"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid="nav-link-instagram"
-                className="px-3 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-black/20 transition-colors"
+
+          <div className="hidden md:flex items-center gap-1">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`px-3 py-2 text-sm font-medium transition-colors ${
+                  location === link.href
+                    ? "text-white border-b-2 border-white"
+                    : "text-gray-300 hover:text-white hover:bg-black/20"
+                }`}
               >
-                Instagram
-              </a>
-            </div>
+                {link.label}
+              </Link>
+            ))}
+            <a
+              href="https://www.instagram.com/fdi.jo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-black/20 transition-colors"
+            >
+              {t("nav_instagram")}
+            </a>
+            <button
+              onClick={toggle}
+              data-testid="lang-toggle"
+              className="ms-3 border border-white/40 text-white text-sm font-semibold px-3 py-1.5 hover:bg-white/10 transition-colors rounded-none tracking-wide"
+            >
+              {t("lang_toggle")}
+            </button>
           </div>
-          
-          <div className="md:hidden">
+
+          <div className="md:hidden flex items-center gap-2">
+            <button
+              onClick={toggle}
+              data-testid="lang-toggle-mobile"
+              className="border border-white/40 text-white text-xs font-semibold px-2.5 py-1 hover:bg-white/10 transition-colors rounded-none"
+            >
+              {t("lang_toggle")}
+            </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               data-testid="nav-mobile-toggle"
@@ -91,7 +103,7 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-black/20"
             >
-              Instagram
+              {t("nav_instagram")}
             </a>
           </div>
         </div>
